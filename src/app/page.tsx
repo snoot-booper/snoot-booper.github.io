@@ -1,9 +1,10 @@
-import { VoggelsInfo } from '@/app/voggels-info'
-
+import { VoggelsInfo } from "@/app/voggels-info";
+import { VisDeurbel } from "@/components/visdeurbel";
 export default function Home() {
   return (
     <main>
-        <VoggelsInfo />
+      <VoggelsInfo />
+      <VisDeurbel />
     </main>
-  )
+  );
 }

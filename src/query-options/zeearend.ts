@@ -1,9 +1,11 @@
-import { queryOptions } from '@tanstack/react-query'
+import { queryOptions } from "@tanstack/react-query";
 
 export const zeearendOptions = queryOptions({
-  queryKey: ['zeearend'],
+  queryKey: ["zeearend"],
   queryFn: async () => {
-    const response = await fetch('https://www.vogelbescherming.nl/beleefdelente/zeearend')
-    return response.text()
+    const response = await fetch(
+      "https://www.vogelbescherming.nl/beleefdelente/zeearend"
+    );
+    return response.text();
   },
-})
+});

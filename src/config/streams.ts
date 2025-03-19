@@ -9,41 +9,41 @@ import { visarendOptions } from "@/query-options/visarend";
 import { zeearendOptions } from "@/query-options/zeearend";
 
 export const streams = [
-    {
-        queryOptions: kerkuilOptions,
-    },
-    {
-        queryOptions: slechtvalkOptions,
-    },
-    {
-        queryOptions: bosuilOptions,
-    },
-    {
-        queryOptions: torenvalkOptions,
-    },
-    {
-        queryOptions: visarendOptions,
-    },
-    {
-        queryOptions: boerenlandvogelsOptions,
-    },
-    {
-        queryOptions: zeearendOptions,
-    },
-    // {
-    //     queryOptions: ooievaarOptions,
-    // },
-    // {
+  {
+    queryOptions: kerkuilOptions,
+  },
+  {
+    queryOptions: slechtvalkOptions,
+  },
+  {
+    queryOptions: bosuilOptions,
+  },
+  {
+    queryOptions: torenvalkOptions,
+  },
+  {
+    queryOptions: visarendOptions,
+  },
+  {
+    queryOptions: boerenlandvogelsOptions,
+  },
+  {
+    queryOptions: zeearendOptions,
+  },
+  // {
+  //     queryOptions: ooievaarOptions,
+  // },
+  // {
 
-    //     queryOptions: koolmeesOptions,
-    // },
-    // {
-    //     queryOptions: merelOptions,
-    // },
-    {
-        queryOptions: steenuilOptions,
-    },
-    {
-        queryOptions: vijverOptions,
-    },
-]
+  //     queryOptions: koolmeesOptions,
+  // },
+  // {
+  //     queryOptions: merelOptions,
+  // },
+  {
+    queryOptions: steenuilOptions,
+  },
+  {
+    queryOptions: vijverOptions,
+  },
+];
