@@ -10,63 +10,40 @@ import { zeearendOptions } from "@/query-options/zeearend";
 
 export const streams = [
     {
-    name: 'Kerkuil binnen',
-    file: 'Kerkuil1',
-    queryOptions: kerkuilOptions,
+        queryOptions: kerkuilOptions,
     },
     {
-        name: 'Slechtvalk',
-        file: 'SlechtvalkGemert3',
         queryOptions: slechtvalkOptions,
     },
     {
-        name: 'Bosuil',
-        file: 'Bosuil2',
         queryOptions: bosuilOptions,
     },
     {
-        name: 'Torenvalk',
-        file: 'Torenvalk1',
         queryOptions: torenvalkOptions,
     },
     {
-        name: 'Visarend',
-        file: 'Visarend1',
         queryOptions: visarendOptions,
     },
     {
-        name: 'Boerenlandvogels',
-        file: 'Boerenlandvogels1',
         queryOptions: boerenlandvogelsOptions,
     },
     {
-        name: 'Zeearend',
-        file: 'Zeearend1',
         queryOptions: zeearendOptions,
     },
     // {
-    //     name: 'Ooievaar',
-    //     file: 'Ooievaar1',
     //     queryOptions: ooievaarOptions,
     // },
     // {
-    //     name: 'Koolmees',
-    //     file: 'Koolmees1',
+
     //     queryOptions: koolmeesOptions,
     // },
     // {
-    //     name: 'Merel',
-    //     file: 'Merel1',
     //     queryOptions: merelOptions,
     // },
     {
-        name: 'Steenuil',
-        file: 'Steenuil3',
         queryOptions: steenuilOptions,
     },
     {
-        name: 'Vijver',
-        file: 'Vijver1',
         queryOptions: vijverOptions,
     },
 ]
