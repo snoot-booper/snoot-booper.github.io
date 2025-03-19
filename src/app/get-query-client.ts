@@ -9,6 +9,9 @@ import {
       defaultOptions: {
         queries: {
           staleTime: 5 * 60 * 1000, // 5 minutes
+          refetchOnWindowFocus: false,
+          refetchOnReconnect: false,
+          refetchOnMount: false,
         },
         dehydrate: {
           // include pending queries in dehydration
