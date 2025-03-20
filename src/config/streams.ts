@@ -18,7 +18,7 @@ export const streams = [
     queryOptions: slechtvalkOptions,
   },
   {
-    voggel: "bosuil",
+    voggel: "Bosuil",
     queryOptions: bosuilOptions,
   },
   {
