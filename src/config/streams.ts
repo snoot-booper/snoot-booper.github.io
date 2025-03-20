@@ -10,24 +10,31 @@ import { zeearendOptions } from "@/query-options/zeearend";
 
 export const streams = [
   {
+    voggel: "Kerkuil",
     queryOptions: kerkuilOptions,
   },
   {
+    voggel: "Slechtvalk",
     queryOptions: slechtvalkOptions,
   },
   {
+    voggel: "bosuil",
     queryOptions: bosuilOptions,
   },
   {
+    voggel: "Torenvalk",
     queryOptions: torenvalkOptions,
   },
   {
+    voggel: "Visarend",
     queryOptions: visarendOptions,
   },
   {
+    voggel: "Boerenlandvogels",
     queryOptions: boerenlandvogelsOptions,
   },
   {
+    voggel: "Zeearend",
     queryOptions: zeearendOptions,
   },
   // {
@@ -41,9 +48,11 @@ export const streams = [
   //     queryOptions: merelOptions,
   // },
   {
+    voggel: "Steenuil",
     queryOptions: steenuilOptions,
   },
   {
+    voggel: "Vijver",
     queryOptions: vijverOptions,
   },
 ];

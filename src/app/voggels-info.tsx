@@ -7,7 +7,11 @@ export function VoggelsInfo() {
   return (
     <section className="grid grid-cols-[repeat(auto-fit,var(--container-2xl))] gap-4 max-w-full">
       {streams?.map((stream, index) => (
-        <Voggel key={index} queryOptions={stream.queryOptions} />
+        <Voggel
+          key={index}
+          voggel={stream.voggel}
+          queryOptions={stream.queryOptions}
+        />
       ))}
     </section>
   );
