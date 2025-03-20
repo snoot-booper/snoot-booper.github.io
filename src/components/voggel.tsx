@@ -24,7 +24,7 @@ export function Voggel({ voggel, queryOptions }: VoggelProps) {
           className="p-4 w-2xl max-w-full aspect-[1170/630] relative"
           key={cam.id}
         >
-          <h2 className="text-lg absolute top-4 left-4 [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000] text-primary">
+          <h2 className="text-lg absolute top-4 left-4 [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000] text-white">
             {voggel} - {cam.naam}
           </h2>
           <iframe
