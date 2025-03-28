@@ -37,13 +37,14 @@ export const streams = [
     voggel: "Zeearend",
     queryOptions: zeearendOptions,
   },
-  // {
-  //     queryOptions: ooievaarOptions,
-  // },
-  // {
-
-  //     queryOptions: koolmeesOptions,
-  // },
+  {
+    voggel: 'Ooievaar',
+    queryOptions: ooievaarOptions,
+  },
+  {
+    voggel: 'Koolmees',
+    queryOptions: koolmeesOptions,
+  },
   // {
   //     queryOptions: merelOptions,
   // },
