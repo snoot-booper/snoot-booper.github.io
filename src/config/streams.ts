@@ -7,7 +7,7 @@ import { torenvalkOptions } from "@/query-options/torenvalk";
 import { vijverOptions } from "@/query-options/vijver";
 import { visarendOptions } from "@/query-options/visarend";
 import { zeearendOptions } from "@/query-options/zeearend";
-import { ooievaarOptions } from "@/query-options/oooevaar";
+import { ooievaarOptions } from "@/query-options/ooievaar";
 import { koolmeesOptions } from "@/query-options/koolmees";
 
 export const streams = [
