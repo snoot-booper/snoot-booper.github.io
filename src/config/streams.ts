@@ -9,6 +9,7 @@ import { visarendOptions } from "@/query-options/visarend";
 import { zeearendOptions } from "@/query-options/zeearend";
 import { ooievaarOptions } from "@/query-options/ooievaar";
 import { koolmeesOptions } from "@/query-options/koolmees";
+import { merelOptions } from "@/query-options/merel";
 
 export const streams = [
   {
