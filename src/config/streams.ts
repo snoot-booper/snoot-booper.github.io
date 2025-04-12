@@ -47,9 +47,10 @@ export const streams = [
     voggel: 'Koolmees',
     queryOptions: koolmeesOptions,
   },
-  // {
-  //     queryOptions: merelOptions,
-  // },
+  {
+    voggel: 'Merel',
+    queryOptions: merelOptions,
+  },
   {
     voggel: "Steenuil",
     queryOptions: steenuilOptions,
